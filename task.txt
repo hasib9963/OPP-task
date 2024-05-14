@@ -1,0 +1,103 @@
+1) Example for below topic both c++ and python.
+    OOP:
+    1) Class & Object
+    2) Methods
+    3) Inheritance
+    4) Encaptulation
+    5) Polymorphism
+    6) Abstraction
+2) abstract vs interface
+3) virtual keyword
+4) OOP: https://www.interviewbit.com/oops-interview-questions/
+5) Python: https://www.interviewbit.com/python-interview-questions/
+
+
+Q1: What are the main features of OOPs?
+A: Inheritance, Encaptulation, Polymorphism & Abstraction.
+
+Q2: What is class?
+A: A class can be understood as a template or a blueprint, which contains some values, known as member data or member, and some set of rules, known as behaviors or functions.
+
+Q3: What is an Object?
+A: An object refers to the instance of the class, which contains the instance of the members and behaviors defined in the class template.
+
+Q4: What is Encaptulation?
+A; One can visualize Encapsulation as the method of putting everything that is required to do the job, inside a capsule and presenting that capsule to the user.
+
+Q5: What is Polymorphism?
+A: Polymorphism is composed of two words - “poly” which means “many”, and “morph” which means “shapes”. Therefore Polymorphism refers to something that has many shapes. In OOPs, Polymorphism refers to the process by which some code, data, method, or object behaves differently under different circumstances or contexts. 
+
+Q6: How much memory does a class occupy?
+A: Classes do not consume any memory. They are just a blueprint based on which objects are created. Now when objects are created, they actually initialize the class members and methods and therefore consume memory.
+
+Q7: What is a Constructor?
+A: Constructors are special methods whose name is the same as the class name. The constructors serve the special purpose of initializing the objects.
+
+Q8: What are the various types of constructors in C++?
+A: Defualt constructors, Parameterized constructor and copy constructor.
+
+Q9: What are the various types of  Inheritance?
+A: Single inheritance, Multiple inheritance, Multi-level inheritance, Hierachical inheritance and hybrid inheritance.
+
+Q10: What is a subclass?
+A: The subclass is an entity, which inherits from another class. It is also known as the child class.
+
+Q11: What is a superclass?
+A: The superclass is an entity, which allows subclasses or child classes to inherit from itself.
+
+Q12: What is an interface?
+A: An interface refers to a special type of class, which contains methods, but not their definition. Only the declaration of methods is allowed inside an interface.
+
+Q13: What is meant by static polymorphism?
+A: Static polymorphism is the feature by which an object is linked with the respective function or operator based on the values during the compile time. Static or Compile time Polymorphism can be achieved through Method overloading or operator overloading.
+
+Q14: What is meant by dynamic polymorphism?
+A: Dynamic polymorphism or Runtime polymorphism refers to the type of Polymorphism in OOPs, by which the actual implementation of the function is decided during the runtime or execution. The dynamic or runtime polymorphism can be achieved with the help of method overriding.
+
+Q15: How is data abstraction accomplished?
+A: Data abstraction is accomplished with the help of abstract methods or abstract classes.
+
+Q16: What is an exception?
+A: An exception can be considered as a special event, which is raised during the execution of a program at runtime, that brings the execution to a halt. The reason for the exception is mainly due to a position in the program, where the user wants to do something for which the program is not specified, like undesirable input.
+
+Q17: What is meant by exception handling?
+A: Exception handling  is the mechanism for identifying the undesirable states that the program can reach and specifying the desirable outcomes of such states.
+
+Q18: What are some major Object Oriented Programming languages?
+A: Java, C++, JavaScript, Python and PHP.
+
+Q19: What are some other programming paradigms other than OOPs?
+A: Imperative programming paradigm and Declarative programming paradigm.
+
+Q20: What is meant by Structured Programming?
+A: Structured Programming refers to the method of programming which consists of a completely structured control flow.
+
+Q21: What is Python?
+A: Python is a high level, interpreted, general-purpose programming language. Being a general-purpose language, it can be used to build almost any type of application with the right tools/libraries.
+
+Q22: What are list and tuples?
+A: List and Tuples are both sequence data types that can store a collection of objects in Python. The objects stored in both sequences can have different data types. Lists are represented with square brackets ['sara', 6, 0.19], while tuples are represented with parantheses ('ansh', 5, 0.97).
+
+Q23: What are the common built-in data types in Python?
+A: None type, Numeric Types, Sequence Types, Mapping Types, Set Types, Modules and Callable Types.
+
+Q24: What is the pass in Python?
+A: The pass keyword represents a null operation in Python. It is generally used for the purpose of filling up empty blocks of code which may execute during runtime but has yet to be written.
+
+Q25: What is the use of self in Python?
+A: Self is used to represent the instance of the class. With this keyword, you can access the attributes and methods of the class in python. It binds the attributes with the given arguments. self is used in different places and often thought to be a keyword. But unlike in C++, self is not a keyword in Python. 
+
+Q26: What is __init__?
+A: __init__ is a constructor  method in Python and is automatically called to allocate memory when a new object/instance is created. All classes have a __init__ method associated with them. It helps in distinguishing methods and attributes of a class from local variables.
+
+Q27: What is docstring in Python?
+A: Documentation string or docstring is a multiline string used to document a specific code segment. The docstring should describe what the function or method does.
+
+Q28: What is the difference between Python Arrays and Lists?
+A: an only contain elements of same data types i.e., data type of array should be homogeneous.It is a thin wrapper around C language arrays and consumes far less memory than lists. Lists in Python can contain elements of different data types i.e., data type of lists can be heterogeneous. It has the disadvantage of consuming large memory.
+
+Q29: Is Python a compiled or interpreted language?
+A: Python is an interpreted language. Code is executed line by line without a separate compilation step.
+
+Q30: What is the difference between a module and a package in Python?
+A: A module is a single Python file containing functions, variables, and classes. A package is a collection of modules organized in a hierarchical directory structure.
